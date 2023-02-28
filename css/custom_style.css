@@ -172,7 +172,20 @@ a.navbar-brand {
 }	
 
 @media screen and (max-width: 768px) {
+.wg-about .avatar {
+    width: 100%;
+    height: 100%;
+}
+}
 
+@media screen and (max-width: 640px) {
+.flexbox01 , .flexbox02 {
+    width: 100%;
+	max-width: 100%;
+}
+.flexbox01 {
+    margin: 0 0 30px;
+}	
 }
 
 
