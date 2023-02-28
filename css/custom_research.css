@@ -75,7 +75,7 @@
 	color: #E84A27;
 }
 .info_block {
-    padding: 0px;
+    padding: 0 0 0 10px;
     display: block;
 }
 .switch {
@@ -115,11 +115,6 @@
     float: left !important;
     content: "+"
 }
-span.abstract.switch.open + a + a + .container {
-    height: 100%;
-    padding: 2%;
-    word-wrap: break-word;
-}
 
 @media screen and (max-width: 1200px) {
 .research_page {
@@ -139,6 +134,9 @@ span.abstract.switch.open + a + a + .container {
 @media screen and (max-width: 580px) {
 .research_page {
     padding: 30px 0 0;
+}	
+.research_box {
+	margin: 0 0 30px;
 }	
 .main_ttl h2 {
     font-size: 32px;
