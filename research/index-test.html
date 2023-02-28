@@ -216,7 +216,7 @@
 				<a href="#">Link</a>
 				|
 				<a href="#">Link</a> 
-				<span class="abstract container">
+				<span class="abstract container01">
 					<span class="abstract info">texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</span>
 				</span>
 			</div>
@@ -303,9 +303,9 @@
 <script>
 $(document).ready(function() {
   $('.abstract.switch').on('click', function() {
-    $(this).next('.abstract.container').toggleClass('open');
+    $(this).next('a + .abstract.container').toggleClass('open');
   });
-});
+});	
 </script>	
 	
 </body>
