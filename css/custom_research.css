@@ -45,7 +45,7 @@
     font-weight: 500;
     line-height: 1.4;
     padding: 0;
-    margin: 0 0 30px;
+    margin: 0;
     color: #111;
 }
 .research_box {
@@ -62,9 +62,9 @@
     margin: 0;
 }
 .contents_area {
-    text-indent: 10px;
+    padding-left: 10px;
 }
-.research_box p{
+.research_box p {
 	padding: 0;
 	margin: 0;
 }
@@ -136,7 +136,20 @@ span.abstract.switch.open + a + a + .container {
 }	
 }	
 
-
+@media screen and (max-width: 580px) {
+.research_page {
+    padding: 30px 0 0;
+}	
+.main_ttl h2 {
+    font-size: 32px;
+}	
+.sub_ttl {
+    margin: 0 0 20px;
+}
+.sub_ttl h3 {
+	font-size: 24px;
+}	
+}
 
 
 
