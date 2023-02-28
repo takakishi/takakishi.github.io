@@ -71,9 +71,47 @@
 .research_box .contents_area p.contents02 a {
 	color: #E84A27;
 }
-
-
-
+.info_block {
+    padding: 0px;
+    display: block;
+}
+.switch {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+    font-weight: normal;
+    display: inline-block;
+}
+.container {
+    height: 0px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.05);
+}
+.container.open {
+    overflow: visible
+}
+.info {
+    padding: 10px;
+    display: block
+}
+.info>p:first-of-type {
+    margin-top: 0em
+}
+.info>p:last-of-type {
+    margin-bottom: 0em
+}
+.abstract.switch>a:before {
+    float: left !important;
+    font-family: 'Lucida Console';
+    content: "−";
+    padding-right: 5px
+}
+.abstract.switch:not(.open)>a:before {
+    float: left !important;
+    content: "+"
+}
 
 
 
