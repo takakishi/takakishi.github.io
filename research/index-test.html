@@ -55,36 +55,6 @@
 }
 </script>
 
-<!-- Accordian-style display of paper info -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-  // Switch operation
-  //  If open:   close switch and associated container
-  //  If closed: first close other open switches/containers, then open switch and associated container
-  $('.switch').click(function() {
-  	var firstClass = $(this).attr('class').split(' ')[0];
-  	if ($(this).is(".open")) {
-        $(this).parent().find('.' + firstClass + '.container').animate({'height':0},500);
-    }else{
-    	$(this).parent().find('.container.open').animate({'height':0},500).removeClass("open");
-      $(this).parent().find('.switch.open').removeClass("open");
-    	var infoHeight = $(this).parent().find('.' + firstClass + '.info').innerHeight();
-    	$(this).parent().find('.' + firstClass + '.container').animate({'height':infoHeight},500);
-    }
-    $(this).toggleClass("open");
-    $(this).parent().find('.' + firstClass + '.container').toggleClass("open");
-  });
-  
-  // Copy text to clipboard
-  $('.copy.btn').click(function() {
-    /* alert($(this).parent().text().trim()); */
-    var citation = $(this).parent().find('.citation').text().trim();
-    navigator.clipboard.writeText(citation);
-  });
-});
-</script><script>Static.COOKIE_BANNER_CAPABLE = true;</script>
-
 <title>【test】Takaaki Kishida / Research</title>
 
 </head>
