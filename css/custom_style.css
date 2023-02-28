@@ -131,7 +131,10 @@ a.navbar-brand {
     margin: 0;
     color: #111;
 }
-.article-style a {
+.article-style p {
+    margin-bottom: 1.5rem;
+}
+.article-style p a {
     text-decoration: underline;
 }
 
