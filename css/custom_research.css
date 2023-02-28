@@ -127,6 +127,14 @@ span.abstract.switch.open + a + a + .container {
 }	
 }	
 
+@media screen and (max-width: 1024px) {
+.main_ttl h2 {
+    font-size: 36px;
+}	
+.sub_ttl h3 {
+	font-size: 28px;
+}	
+}	
 
 
 
