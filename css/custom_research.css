@@ -121,8 +121,11 @@ span.abstract.switch.open + a + a + .container {
     word-wrap: break-word;
 }
 
-
-
+@media screen and (max-width: 1200px) {
+.research_page {
+    width: 96%;
+}	
+}	
 
 
 
