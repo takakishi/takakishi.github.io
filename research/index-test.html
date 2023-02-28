@@ -57,10 +57,9 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-$(function() {
-  $('.switch').click(function() {
-    $(this).toggleClass("open");
-    $(this).parent().find('.' + '.container').toggleClass("open");
+$(document).ready(function() {
+  $('.abstract.switch').on('click', function() {
+    $(this).next('.abstract.container').toggleClass('open');
   });
 });
 </script>	
