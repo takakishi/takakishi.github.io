@@ -189,6 +189,18 @@ a.navbar-brand {
 }
 
 
+@media screen and (max-width: 480px) {
+a.navbar-brand {
+	font-size: 30px;
+}
+.flexbox02 h2 {
+    font-size: 25px;
+    margin: 0 0 20px;
+}	
+.portrait-title h2 {
+    margin: 25px 0 15px;
+}	
+}
 
 
 
