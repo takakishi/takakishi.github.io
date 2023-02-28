@@ -55,6 +55,24 @@
 }
 </script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(function() {
+  $('.switch').click(function() {
+  	var firstClass = $(this).attr('class').split(' ')[0];
+  	if ($(this).is(".open")) {
+        $(this).parent().find('.' + firstClass + '.container').animate({'height':0},500);
+    }else{
+    	$(this).parent().find('.container.open').animate({'height':0},500).removeClass("open");
+      $(this).parent().find('.switch.open').removeClass("open");
+    	var infoHeight = $(this).parent().find('.' + firstClass + '.info').innerHeight();
+    	$(this).parent().find('.' + firstClass + '.container').animate({'height':infoHeight},500);
+    }
+    $(this).toggleClass("open");
+    $(this).parent().find('.' + firstClass + '.container').toggleClass("open");
+  });
+});
+</script>	
 	
 <title>【test】Takaaki Kishida / Research</title>
 
