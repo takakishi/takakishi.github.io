@@ -112,7 +112,11 @@
     float: left !important;
     content: "+"
 }
-
+span.abstract.switch.open + a + a + .container {
+    height: 100%;
+    padding: 2%;
+    word-wrap: break-word;
+}
 
 
 
