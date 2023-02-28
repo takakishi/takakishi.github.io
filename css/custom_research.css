@@ -67,6 +67,7 @@
 .research_box p {
 	padding: 0;
 	margin: 0;
+	word-wrap: break-word;
 }
 .research_box .contents_area p.contents01 a {
 	color: #003E85;
@@ -118,7 +119,7 @@
 
 @media screen and (max-width: 1200px) {
 .research_page {
-    width: 96%;
+    width: 94%;
 }	
 }	
 
