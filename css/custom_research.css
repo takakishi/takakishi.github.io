@@ -158,7 +158,11 @@ span.abstract.switch.open + a + a + span.abstract.container01 {
 }	
 }
 
-
+@media screen and (max-width: 580px) {
+.research_box {
+    font-size: 16px;
+}
+}
 
 
 
