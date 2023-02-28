@@ -57,11 +57,12 @@
 	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-$(document).ready(function() {
-  $('.abstract.switch').on('click', function() {
-    $(this).next('.abstract.container01').toggleClass('open');
+$(function() {
+  $('.switch').click(function() {
+    $(this).toggleClass("open");
+    $(this).parent().find('.' + '.container').toggleClass("open");
   });
-});	
+});
 </script>		
 	
 <title>【test】Takaaki Kishida / Research</title>
