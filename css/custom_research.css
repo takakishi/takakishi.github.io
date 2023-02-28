@@ -86,6 +86,9 @@
     font-weight: normal;
     display: inline-block;
 }
+span.abstract.switch a {
+    color: #1565c0;
+}
 span.abstract.switch.open + a + a + span.abstract.container01 {
     height: 100%;
     word-wrap: break-word;
