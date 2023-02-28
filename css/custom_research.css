@@ -17,7 +17,7 @@
     font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.4;
     padding: 0;
     margin: 0;
     color: #111;
@@ -34,13 +34,68 @@
 .main_ttl h2:after {
     margin-left: 1rem;
 }
+.sub_ttl {
+    padding: 0;
+    margin: 0 0 30px;
+}
 .sub_ttl h3 {
     text-align: left;
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.4;
     padding: 0;
     margin: 0 0 30px;
     color: #111;
 }
+.research_box {
+    padding: 0;
+    margin: 0 0 50px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #111;
+}
+.research_box:last-child {
+    margin: 0;
+}
+.research_box .contents_area p{
+	padding: 0;
+	margin: 0;
+}
+.research_box .contents_area p.contents01 a {
+	color: #003E85;
+}
+.research_box .contents_area p.contents02 a {
+	color: #E84A27;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
