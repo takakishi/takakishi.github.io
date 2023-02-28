@@ -9,7 +9,10 @@ body{
 
 /* header */
 .navbar {
-	height: 84px;
+    height: 84px;
+    box-shadow: none;
+    border-bottom: 1px solid #d1d1d1;
+    box-sizing: border-box;
 }
 a.navbar-brand {
     font-family: 'Merriweather', serif;
