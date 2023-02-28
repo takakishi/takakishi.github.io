@@ -55,11 +55,35 @@
 }
 </script>
 
-
-
-
-
-
+<!-- Accordian-style display of paper info -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  // Switch operation
+  //  If open:   close switch and associated container
+  //  If closed: first close other open switches/containers, then open switch and associated container
+  $('.switch').click(function() {
+  	var firstClass = $(this).attr('class').split(' ')[0];
+  	if ($(this).is(".open")) {
+        $(this).parent().find('.' + firstClass + '.container').animate({'height':0},500);
+    }else{
+    	$(this).parent().find('.container.open').animate({'height':0},500).removeClass("open");
+      $(this).parent().find('.switch.open').removeClass("open");
+    	var infoHeight = $(this).parent().find('.' + firstClass + '.info').innerHeight();
+    	$(this).parent().find('.' + firstClass + '.container').animate({'height':infoHeight},500);
+    }
+    $(this).toggleClass("open");
+    $(this).parent().find('.' + firstClass + '.container').toggleClass("open");
+  });
+  
+  // Copy text to clipboard
+  $('.copy.btn').click(function() {
+    /* alert($(this).parent().text().trim()); */
+    var citation = $(this).parent().find('.citation').text().trim();
+    navigator.clipboard.writeText(citation);
+  });
+});
+</script>
 
 <title>【test】Takaaki Kishida / Research</title>
 
@@ -196,6 +220,16 @@
 				<p class="contents02"><a href="#">texttexttexttexttexttexttext</a>, September 1</p>
 				<p class="contents01">Media：<a href="#">texttexttexttexttexttexttexttexttexttexttexttext</a></p>
 				<p class="contents01">Eprints：<a href="#">texttexttexttexttexttexttexttexttexttexttexttext</a></p>
+			</div>
+			<div class="info_block">
+				<span class="abstract switch"><a>Link</a></span> 
+				| 
+				<a href="#">Link</a>
+				|
+				<span class="cite switch"><a>Link</a></span> 
+				<span class="abstract container">
+					<span class="abstract info">texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</span>
+				</span>
 			</div>
 		</div>
 	</div>	
