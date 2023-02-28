@@ -88,8 +88,16 @@ a.navbar-brand {
 #profile .network-icon {
     margin-top: 10px;
 }
-
-
+.network-icon li {
+    margin-right: 30px;
+}
+.fa-mail img {
+    display: block;
+    width: 37px;
+    height: 100%;
+    padding: 0;
+    margin: 3px 0 0;
+}
 
 
 
