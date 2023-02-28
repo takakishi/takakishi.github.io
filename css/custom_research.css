@@ -11,6 +11,8 @@
     margin: 0 0 30px;
 }
 .main_ttl h2 {
+	display: flex;
+	align-items: center;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 40px;
@@ -18,17 +20,27 @@
     line-height: 1;
     padding: 0;
     margin: 0;
-    color: #d1d1d1;
+    color: #111;
 }
 .main_ttl h2:before ,  .main_ttl h2:after {
     content: "";
     height: 1px;
     flex-grow: 1;
-    background-color: #eee;
+    background-color: #d1d1d1;
 }
 .main_ttl h2:before {
     margin-right: 1rem;
 }
 .main_ttl h2:after {
     margin-left: 1rem;
+}
+.sub_ttl h3 {
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0;
+    margin: 0 0 30px;
+    color: #111;
 }
