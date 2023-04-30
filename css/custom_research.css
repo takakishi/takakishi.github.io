@@ -135,10 +135,7 @@ span.abstract.switch a {
 @media screen and (max-width: 1024px) {
 .research_page {
     width: 94%;
-}	
-.main_ttl h2 {
-    font-size: 36px;
-}	
+}		
 .sub_ttl h3 {
 	font-size: 28px;
 }	
@@ -152,7 +149,7 @@ span.abstract.switch a {
 	margin: 0 0 50px;
 }	
 .main_ttl h2 {
-    font-size: 32px;
+    font-size: 26px;
 }	
 .sub_ttl {
     margin: 0 0 30px;
