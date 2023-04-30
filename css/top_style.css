@@ -11,6 +11,10 @@ body{
 }
 
 /* header */
+.container {
+    padding-right: 0;
+	padding-left: 0;
+}
 .navbar {
     height: 84px;
     box-shadow: none;
@@ -19,7 +23,7 @@ body{
 }
 a.navbar-brand {
     font-family: 'Merriweather', serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -67,7 +71,7 @@ a.navbar-brand {
 }
 .portrait-title h2 {
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -84,7 +88,7 @@ a.navbar-brand {
     color: #111;
 }
 .portrait-title h3 a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 #profile .network-icon {
     margin-top: 10px;
@@ -103,19 +107,19 @@ a.navbar-brand {
     padding: 0;
     margin: 0;
     flex: none;
-    width: 30%;
+    width: 27%;
     max-width: 350px;
 }
 .flexbox02 {
     padding: 0;
     margin: 0;
     flex: none;
-    width: 66%;
-    max-width: 800px;
+    width: 70%;
+    max-width: 840px;
 }
 .flexbox02 h2 {
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -124,7 +128,7 @@ a.navbar-brand {
 }
 .article-style {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.8;
     padding: 0;
@@ -135,7 +139,7 @@ a.navbar-brand {
     margin-bottom: 1.5rem;
 }
 .article-style p a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
