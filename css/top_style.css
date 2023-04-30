@@ -179,10 +179,15 @@ a.navbar-brand {
 .wg-about .avatar {
     width: 100%;
     height: 100%;
+	max-width: 400px;
 }
 }
 
 @media screen and (max-width: 640px) {
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}	
 .flexbox01 , .flexbox02 {
     width: 100%;
 	max-width: 100%;
@@ -190,6 +195,12 @@ a.navbar-brand {
 .flexbox01 {
     margin: 0 0 30px;
 }	
+.portrait-title h2  , .flexbox02 h2 , a.navbar-brand {
+    font-size: 30px;
+}
+.portrait-title h2 {
+    margin: 25px 0 15px;
+} 	
 }
 
 
