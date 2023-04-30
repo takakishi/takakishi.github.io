@@ -95,7 +95,6 @@ span.abstract.switch a {
 .info_block.link03 span.abstract.switch.open + a + a + span.abstract.container01 , .info_block.link04 span.abstract.switch.open + a + a + a + span.abstract.container01 {
     height: 100%;
     word-wrap: break-word;
-    padding: 1%;
 	margin-top: 10px;
 }
 .container01 {
@@ -109,7 +108,7 @@ span.abstract.switch a {
     overflow: visible
 }
 .info {
-    padding: 10px;
+    padding: 2%;
     display: block
 }
 .info>p:first-of-type {
