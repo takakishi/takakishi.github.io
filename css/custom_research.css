@@ -79,7 +79,7 @@
 	color: #E84A27;
 }
 .info_block {
-    padding: 0 0 0 10px;
+    padding: 5px 0 0 10px;
     display: block;
 }
 .switch {
@@ -92,10 +92,11 @@
 span.abstract.switch a {
     color: #1565c0;
 }
-.info_block.link03 span.abstract.switch.open + a + a + span.abstract.container01 , .info_block .link04 span.abstract.switch.open + a + a + a + span.abstract.container01 {
+.info_block.link03 span.abstract.switch.open + a + a + span.abstract.container01 , .info_block.link04 span.abstract.switch.open + a + a + a + span.abstract.container01 {
     height: 100%;
     word-wrap: break-word;
     padding: 1%;
+	margin-top: 10px;
 }
 .container01 {
     height: 0px;
