@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .research_page {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     padding: 50px 0 0;
 }
@@ -15,7 +15,7 @@
 	align-items: center;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.4;
     padding: 0;
@@ -41,7 +41,7 @@
 .sub_ttl h3 {
     text-align: left;
     font-family: 'Merriweather', serif;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1.4;
     padding: 0;
@@ -55,7 +55,7 @@
     font-family: 'Merriweather', serif;
     font-size: 18px;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.6;
     color: #111;
 }
 .research_box:last-child {
@@ -68,6 +68,9 @@
 	padding: 0;
 	margin: 0;
 	word-wrap: break-word;
+}
+.research_box p.box_ttl {
+    font-weight: 700;
 }
 .research_box .contents_area p.contents01 a {
 	color: #003E85;
@@ -123,15 +126,12 @@ span.abstract.switch.open + a + a + span.abstract.container01 {
 .abstract.switch:not(.open)>a:before {
     float: left !important;
     content: "+"
-}
-
-@media screen and (max-width: 1200px) {
-.research_page {
-    width: 94%;
-}	
 }	
 
 @media screen and (max-width: 1024px) {
+.research_page {
+    width: 94%;
+}	
 .main_ttl h2 {
     font-size: 36px;
 }	
