@@ -123,7 +123,7 @@ a.navbar-brand {
     font-weight: 500;
     line-height: 1;
     padding: 0;
-    margin: 0 0 30px;
+    margin: 0 0 30px; /* vertical space */
     color: #111;
 }
 .article-style {
@@ -145,35 +145,35 @@ a.navbar-brand {
 @media screen and (max-width: 1200px) {
 .container {
     max-width: 100%;
-}	
+}
 .navbar .nav-item {
     margin: 0 40px 0 0;
-}	
+}
 }
 
 @media screen and (max-width: 1024px) {
 .navbar .nav-item {
     margin: 0 25px 0 0;
 }
-}	
+}
 
 @media screen and (max-width: 991px) {
 .navbar-collapse {
     top: 84px;
-}	
+}
 a.navbar-brand {
     margin: 0 auto;
 }
 .navbar-light .navbar-toggler{
 	color: #333;
-}	
+}
 .navbar-toggler {
 	font-size: 1.8rem;
-}	
+}
 .big-icon {
     font-size: 2.5rem;
-}	
-}	
+}
+}
 
 @media screen and (max-width: 768px) {
 .wg-about .avatar {
@@ -187,25 +187,25 @@ a.navbar-brand {
 .container {
     padding-right: 15px;
     padding-left: 15px;
-}	
+}
 .flexbox01 , .flexbox02 {
     width: 100%;
 	max-width: 100%;
 }
 .flexbox01 {
     margin: 0 0 30px;
-}	
+}
 .portrait-title h2 {
     margin: 25px 0 15px;
-} 	
+}
 }
 
 
 @media screen and (max-width: 480px) {
 .flexbox02 h2 {
     margin: 0 0 20px;
-}	
+}
 .portrait-title h2 {
     margin: 25px 0 15px;
-}	
+}
 }
