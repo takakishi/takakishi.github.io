@@ -50,7 +50,7 @@
 }
 .research_box {
     padding: 0;
-    margin: 0px 0px 50px;
+    margin: 0 /* Updated */
     text-align: left;
     font-family: 'Merriweather', serif;
     font-size: 18px;
