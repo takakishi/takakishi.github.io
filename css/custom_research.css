@@ -2,7 +2,9 @@
 /* CSS Document */
 
 .research_page {
-    width: 1000px;
+    /* width: 1200px; */
+    max-width: 1200px; /* Adjust this to match your navbar's width */
+    width: 65%;          /* Adjust this percentage to control the overall width */
     margin: 0 auto;
     padding: 50px 0 0;
 }
@@ -15,7 +17,7 @@
 	align-items: center;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.4;
     padding: 0;
@@ -41,7 +43,7 @@
 .sub_ttl h3 {
     text-align: left;
     font-family: 'Merriweather', serif;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.4;
     padding: 0;
@@ -53,7 +55,7 @@
     margin: 0px 0px 20px;
     text-align: left;
     font-family: 'Merriweather', serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1.6;
     color: #111;
@@ -137,7 +139,7 @@ span.abstract.switch a {
     width: 94%;
 }
 .sub_ttl h3 {
-	font-size: 28px;
+	font-size: 18px;
 }
 }
 
@@ -149,13 +151,13 @@ span.abstract.switch a {
 	margin: 0px 0px 50px;
 }
 .main_ttl h2 {
-    font-size: 26px;
+    font-size: 20px;
 }
 .sub_ttl {
     margin: 0 0 30px;
 }
 .sub_ttl h3 {
-	font-size: 24px;
+	font-size: 18px;
 }
 }
 
