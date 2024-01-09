@@ -12,7 +12,7 @@ body{
 
 /* header */
 .container {
-	max-width: 1200px; /* Adjust this to match your navbar's width */
+	max-width: 1100px; /* Adjust this to match your navbar's width */
 	margin-right: auto;
 	margin-left: auto;
 	width: 70%;          /* Adjust this percentage to control the overall width */
