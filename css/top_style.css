@@ -19,7 +19,7 @@ body{
 	/* padding-right: 15px; */
 	/* padding-left: 15px;  */
 	box-sizing: border-box; /* This ensures padding is included in the width */
-	padding: 40px 0px 40px;
+	/* padding: 0px 40px 0px 40px; */ 
 }
 .navbar {
     height: 64px;
