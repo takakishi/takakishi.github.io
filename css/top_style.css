@@ -14,7 +14,7 @@ body{
 .container {
     margin-right: auto;
     margin-left: auto;
-    width: 80%;          /* Adjust this percentage to control the overall width */
+    width: 75%;          /* Adjust this percentage to control the overall width */
     padding-right: 15px; /* New padding */
     padding-left: 15px;  /* New padding */
 }
@@ -147,7 +147,7 @@ a.navbar-brand {
 
 @media screen and (max-width: 1200px) {
     .container {
-        max-width: 90%;      /* Adjust this percentage as needed */
+        max-width: 75%;      /* Adjust this percentage as needed */
         margin-right: auto;
         margin-left: auto;
         padding-right: 15px; /* Consistent padding */
