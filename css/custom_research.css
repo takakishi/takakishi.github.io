@@ -14,12 +14,12 @@
 }
 */
 .research_page {
-    /* max-width: 1200px; Remove this line if .container is used */
-    /* width: 65%; Remove this line if .container is used */
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px 0px; /* Keep the unique padding for top/bottom */
-    box-sizing: border-box;
+  /* max-width: 1200px; Remove this line if .container is used */
+  /* width: 65%; Remove this line if .container is used */
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 0px 40px; /* Keep the unique padding for top/bottom */
+  box-sizing: border-box;
 }
 .main_ttl {
     padding: 0;
