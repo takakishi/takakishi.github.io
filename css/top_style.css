@@ -23,7 +23,7 @@ body{
 }
 a.navbar-brand {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -42,7 +42,7 @@ a.navbar-brand {
 }
 #navbar-main .main-menu-item ul li .nav-link {
     font-family: 'Merriweather', serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1;
     padding: 0;
@@ -71,7 +71,7 @@ a.navbar-brand {
 }
 .portrait-title h2 {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -80,7 +80,7 @@ a.navbar-brand {
 }
 .portrait-title h3 {
     font-family: 'Merriweather', serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -119,7 +119,7 @@ a.navbar-brand {
 }
 .flexbox02 h2 {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 500;
     line-height: 1;
     padding: 0;
@@ -128,7 +128,7 @@ a.navbar-brand {
 }
 .article-style {
     font-family: 'Merriweather', serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.8;
     padding: 0;
