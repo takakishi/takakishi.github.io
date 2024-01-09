@@ -4,10 +4,10 @@
 body{
 	font-family: 'Merriweather', serif;
 	color: #111;
-	margin-top: 74px;
+	margin-top: 64px;
 }
 .page-wrapper {
-	min-height: calc(100vh - 74px);
+	min-height: calc(100vh - 64px);
 }
 
 /* header */
@@ -21,7 +21,7 @@ body{
 	box-sizing: border-box; /* This ensures padding is included in the width */
 }
 .navbar {
-    height: 74px;
+    height: 64px;
     box-shadow: none;
     border-bottom: 1px solid #d1d1d1;
     box-sizing: border-box;
@@ -168,7 +168,7 @@ a.navbar-brand {
 
 @media screen and (max-width: 991px) {
 .navbar-collapse {
-    top: 74px;
+    top: 64px;
 }
 a.navbar-brand {
     margin: 0 auto;
