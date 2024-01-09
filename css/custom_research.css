@@ -31,7 +31,7 @@
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.4;
     padding: 0;
     margin: 0;
@@ -57,7 +57,7 @@
     text-align: left;
     font-family: 'Merriweather', serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.4;
     padding: 0;
     margin: 0;
@@ -85,7 +85,7 @@
 	word-wrap: break-word;
 }
 .research_box p.box_ttl {
-  font-weight: 700;
+  font-weight: 500;
 	margin-bottom: 0px;
 }
 .research_box .contents_area p.contents01 a , .research_box .contents_area p.contents01 span.link_none {
