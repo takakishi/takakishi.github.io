@@ -4,10 +4,10 @@
 body{
 	font-family: 'Merriweather', serif;
 	color: #111;
-	margin-top: 84px;
+	margin-top: 74px;
 }
 .page-wrapper {
-	min-height: calc(100vh - 84px);
+	min-height: calc(100vh - 74px);
 }
 
 /* header */
@@ -21,7 +21,7 @@ body{
 	box-sizing: border-box; /* This ensures padding is included in the width */
 }
 .navbar {
-    height: 84px;
+    height: 74px;
     box-shadow: none;
     border-bottom: 1px solid #d1d1d1;
     box-sizing: border-box;
@@ -168,7 +168,7 @@ a.navbar-brand {
 
 @media screen and (max-width: 991px) {
 .navbar-collapse {
-    top: 84px;
+    top: 74px;
 }
 a.navbar-brand {
     margin: 0 auto;
@@ -213,7 +213,7 @@ a.navbar-brand {
 }
 
 .fa-github, .fa-linkedin {
-    font-size: 0.7em; 
+    font-size: 0.7em;
 }
 
 .vertical-space {
