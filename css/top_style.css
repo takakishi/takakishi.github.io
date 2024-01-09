@@ -15,7 +15,7 @@ body{
 	max-width: 1200px; /* Adjust this to match your navbar's width */
 	margin-right: auto;
 	margin-left: auto;
-	width: 60%;          /* Adjust this percentage to control the overall width */
+	width: 65%;          /* Adjust this percentage to control the overall width */
 	padding-right: 15px; /* New padding */
 	padding-left: 15px;  /* New padding */
 	box-sizing: border-box; /* This ensures padding is included in the width */
@@ -149,7 +149,7 @@ a.navbar-brand {
 
 @media screen and (max-width: 1200px) {
     .container {
-        max-width: 60%;      /* Adjust this percentage as needed */
+        max-width: 65%;      /* Adjust this percentage as needed */
         margin-right: auto;
         margin-left: auto;
         padding-right: 15px; /* Consistent padding */
