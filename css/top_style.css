@@ -120,7 +120,7 @@ a.navbar-brand {
 	padding: 0;
 	margin: 0;
 	flex: none;
-	/* width: 65%; */
+	width: 70%; 
 	max-width: 840px;
 }
 .flexbox02 h2 {
