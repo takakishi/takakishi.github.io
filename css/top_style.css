@@ -101,8 +101,8 @@ a.navbar-brand {
 }
 .fa-mail img {
     display: block;
-    width: 37px;
-    height: 100%;
+    width: 30px; /* Adjusted width */
+    height: auto; /* Adjusted height for aspect ratio */
     padding: 0;
     margin: 3px 0 0;
 }
