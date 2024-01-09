@@ -3,14 +3,14 @@
 
 /*
 .research_page {
-    max-width: 1200px;
-  	margin-right: auto;
-  	margin-left: auto;
-  	width: 65%;
-  	padding-right: 15px;
-  	padding-left: 15px;
-  	box-sizing: border-box;
-    padding: 40px 0px 40px;
+  max-width: 1200px;
+	margin-right: auto;
+  margin-left: auto;
+	width: 65%;
+	padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  padding: 40px 0px 40px;
 }
 */
 .research_page {
@@ -22,81 +22,81 @@
   box-sizing: border-box;
 }
 .main_ttl {
-    padding: 0;
-    margin: 0 0 30px;
+  padding: 0;
+  margin: 0 0 30px;
 }
 .main_ttl h2 {
 	display: flex;
 	align-items: center;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.4;
-    padding: 0;
-    margin: 0;
-    color: #111;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  color: #111;
 }
 .main_ttl h2:before ,  .main_ttl h2:after {
-    content: "";
-    height: 1px;
-    flex-grow: 1;
-    background-color: #d1d1d1;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #d1d1d1;
 }
 .main_ttl h2:before {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 .main_ttl h2:after {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 .sub_ttl {
-    padding: 0;
-    margin: 0 0 30px;
+  padding: 0;
+  margin: 0 0 30px;
 }
 .sub_ttl h3 {
-    text-align: left;
-    font-family: 'Merriweather', serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.4;
-    padding: 0;
-    margin: 0;
-    color: #111;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  color: #111;
 }
 .reversed-ol { /* Added on 2024-01-09 */
-    list-style-type: none; /* Removes default numbering */
-    counter-reset: list-total 2; /* Starts counting from 2 if there are 2 items */
+  list-style-type: none; /* Removes default numbering */
+  counter-reset: list-total 2; /* Starts counting from 2 if there are 2 items */
 }
 .reversed-ol li { /* Added on 2024-01-09 */
-    counter-increment: list-total -1; /* Decrements the counter */
-    padding: 0;
-    margin: 0px 0px 20px;
-    text-align: left;
-    font-family: 'Merriweather', serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.6;
-    color: #111;
+  counter-increment: list-total -1; /* Decrements the counter */
+  padding: 0;
+  margin: 0px 0px 20px;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #111;
 }
 .reversed-ol li::before { /* Added on 2024-01-09 */
-    content: "[" counter(list-total) "] "; /* Inserts the counter value before the item */
-    font-weight: bold;
+  content: "[" counter(list-total) "] "; /* Inserts the counter value before the item */
+  font-weight: bold;
 }
 .research_box {
-    padding: 0;
-    margin: 0px 0px 20px;
-    text-align: left;
-    font-family: 'Merriweather', serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.6;
-    color: #111;
+  padding: 0;
+  margin: 0px 0px 20px;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #111;
 }
 .research_box:last-child {
-    margin: 0;
+  margin: 0;
 }
 .contents_area {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 .research_box p {
 	padding: 0;
@@ -114,65 +114,65 @@
 	color: #E84A27;
 }
 .info_block {
-    padding: 0 0 0 10px;
-    display: block;
+  padding: 0 0 0 10px;
+  display: block;
 }
 .switch {
-    margin: 0px;
-    padding: 0px 0px 0px 0px;
-    cursor: pointer;
-    font-weight: normal;
-    display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+  font-weight: normal;
+  display: inline-block;
 }
 span.abstract.switch a {
-    color: #1565c0;
+  color: #1565c0;
 }
 .info_block.link01 span.abstract.switch.open + span.abstract.container01 ,
 .info_block.link02 span.abstract.switch.open + a + span.abstract.container01 ,
 .info_block.link03 span.abstract.switch.open + a + a + span.abstract.container01 ,
 .info_block.link04 span.abstract.switch.open + a + a + a + span.abstract.container01 {
-    height: 100%;
-    word-wrap: break-word;
+  height: 100%;
+  word-wrap: break-word;
 	margin-top: 10px;
 }
 .container01 {
-    height: 0px;
-    padding: 0px;
-    display: block;
-    overflow: hidden;
-    background-color: rgba(0,0,0,.05);
+  height: 0px;
+  padding: 0px;
+  display: block;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.05);
 }
 .container01.open {
-    overflow: visible
+  overflow: visible
 }
 .info {
-    padding: 2%;
-    display: block
+  padding: 2%;
+  display: block
 }
 .info>p:first-of-type {
-    margin-top: 0em
+  margin-top: 0em
 }
 .info>p:last-of-type {
-    margin-bottom: 0em
+  margin-bottom: 0em
 }
 .abstract.switch>a:before {
-    float: left !important;
-    font-family: 'Lucida Console';
-    content: "−";
-    padding-right: 5px
+  float: left !important;
+  font-family: 'Lucida Console';
+  content: "−";
+  padding-right: 5px
 }
 .abstract.switch:not(.open)>a:before {
-    float: left !important;
-    content: "+"
+  float: left !important;
+  content: "+"
 }
 
 @media screen and (max-width: 1200px) {
-.research_page {
+  .research_page {
     width: 65%;
-}
-.sub_ttl h3 {
-	font-size: 18px;
-}
+  }
+  .sub_ttl h3 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -194,7 +194,7 @@ span.abstract.switch a {
 }
 
 @media screen and (max-width: 580px) {
-.research_box {
+  .research_box {
     font-size: 16px;
-}
+  }
 }
