@@ -212,6 +212,10 @@ a.navbar-brand {
     }
 }
 
+.vertical-space {
+  height: 0.5cm; /* Or use '10mm' for exactly 1 cm, or '0.5cm' for less than 1 cm */
+}
+
 @media screen and (max-width: 480px) {
 .flexbox02 h2 {
     margin: 0 0 20px;
