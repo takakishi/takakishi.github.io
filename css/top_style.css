@@ -74,8 +74,8 @@ a.navbar-brand {
 }
 .portrait-title h2 {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 400;
     line-height: 1;
     padding: 0;
     margin: 20px 0 15px;
@@ -122,8 +122,8 @@ a.navbar-brand {
 }
 .flexbox02 h2 {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 400;
     line-height: 1;
     padding: 0;
     margin: 0 0 30px; /* vertical space */
