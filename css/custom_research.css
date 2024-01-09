@@ -18,7 +18,7 @@
     width: 65%;
     margin-right: auto;
     margin-left: auto;
-    padding: 40px 15px; /* Combined padding for top/bottom and left/right */
+    padding: 40px 0px; /* Combined padding for top/bottom and left/right */
     box-sizing: border-box;
 }
 .main_ttl {
