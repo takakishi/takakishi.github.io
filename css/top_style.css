@@ -120,7 +120,7 @@ a.navbar-brand {
 	padding: 0;
 	margin: 0;
 	flex: none;
-	width: 70%; 
+	width: 70%;
 	max-width: 840px;
 }
 .flexbox02 h2 {
@@ -129,7 +129,7 @@ a.navbar-brand {
 	font-weight: 200;
 	line-height: 1;
 	padding: 0;
-	margin: 0 0 15px; /* vertical space: bottom 15 */
+	/* margin: 0 0 15px; /* vertical space: bottom 15 */
 	color: #111;
 }
 .article-style {
