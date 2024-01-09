@@ -89,7 +89,7 @@
 */
 .research_box {
   padding: 0;
-  margin: 0px 0px 20px;
+  margin: 0px 0px 15px;
   text-align: left;
   font-family: 'Merriweather', serif;
   font-size: 15px;
@@ -191,7 +191,7 @@ span.abstract.switch a {
     font-size: 20px;
   }
   .sub_ttl {
-    margin: 0 0 30px;
+    margin: 0 0 25px;
   }
   .sub_ttl h3 {
     font-size: 18px;
