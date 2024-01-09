@@ -75,7 +75,7 @@ a.navbar-brand {
 .portrait-title h2 {
     font-family: 'Merriweather', serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 1;
     padding: 0;
     margin: 20px 0 15px;
@@ -84,7 +84,7 @@ a.navbar-brand {
 .portrait-title h3 {
     font-family: 'Merriweather', serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 1;
     padding: 0;
     margin: 0 0 15px;
