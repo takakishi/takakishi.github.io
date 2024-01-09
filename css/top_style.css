@@ -12,8 +12,11 @@ body{
 
 /* header */
 .container {
-	padding-right: 0;
-	padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;          /* Adjust this percentage to control the overall width */
+    padding-right: 15px; /* New padding */
+    padding-left: 15px;  /* New padding */
 }
 .navbar {
     height: 84px;
@@ -143,12 +146,16 @@ a.navbar-brand {
 }
 
 @media screen and (max-width: 1200px) {
-.container {
-    max-width: 100%;
-}
-.navbar .nav-item {
-    margin: 0 40px 0 0;
-}
+    .container {
+        max-width: 90%;      /* Adjust this percentage as needed */
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px; /* Consistent padding */
+        padding-left: 15px;  /* Consistent padding */
+    }
+    .navbar .nav-item {
+        margin: 0 40px 0 0;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -184,22 +191,24 @@ a.navbar-brand {
 }
 
 @media screen and (max-width: 640px) {
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
+    .container {
+        max-width: 100%;     /* Full width for small screens */
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px; /* Consistent padding */
+        padding-left: 15px;  /* Consistent padding */
+    }
+    .flexbox01, .flexbox02 {
+        width: 100%;
+        max-width: 100%;
+    }
+    .flexbox01 {
+        margin: 0 0 30px;
+    }
+    .portrait-title h2 {
+        margin: 25px 0 15px;
+    }
 }
-.flexbox01 , .flexbox02 {
-    width: 100%;
-	max-width: 100%;
-}
-.flexbox01 {
-    margin: 0 0 30px;
-}
-.portrait-title h2 {
-    margin: 25px 0 15px;
-}
-}
-
 
 @media screen and (max-width: 480px) {
 .flexbox02 h2 {
