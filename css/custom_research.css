@@ -18,7 +18,7 @@
   width: 65%;
   margin-right: auto;
   margin-left: auto;
-  padding: 40px 30px 50px; 
+  padding: 40px 30px 50px;
   box-sizing: border-box;
 }
 .main_ttl {
@@ -62,6 +62,25 @@
     padding: 0;
     margin: 0;
     color: #111;
+}
+.reversed-ol { /* Added on 2024-01-09 */
+    list-style-type: none; /* Removes default numbering */
+    counter-reset: list-total 2; /* Starts counting from 2 if there are 2 items */
+}
+.reversed-ol li { /* Added on 2024-01-09 */
+    counter-increment: list-total -1; /* Decrements the counter */
+    padding: 0;
+    margin: 0px 0px 20px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #111;
+}
+.reversed-ol li::before { /* Added on 2024-01-09 */
+    content: "[" counter(list-total) "] "; /* Inserts the counter value before the item */
+    font-weight: bold;
 }
 .research_box {
     padding: 0;
