@@ -78,9 +78,11 @@
   line-height: 1.6;
   color: #111;
 }
-.reversed-ol li::before { /* Added on 2024-01-09 */
-  content: "[" counter(list-total) "] "; /* Inserts the counter value before the item */
-  font-weight: bold;
+.research_box .paper_title::before { /* Added on 2024-01-09 */
+    counter-increment: item-counter -1;
+    content: "[" counter(item-counter) "] ";
+    font-weight: bold;
+    margin-right: 10px;
 }
 .research_box {
   padding: 0;
