@@ -120,7 +120,7 @@ a.navbar-brand {
 	padding: 0;
 	margin: 0;
 	flex: none;
-	width: 65%;
+	/* width: 65%; */
 	max-width: 840px;
 }
 .flexbox02 h2 {
@@ -129,7 +129,7 @@ a.navbar-brand {
 	font-weight: 200;
 	line-height: 1;
 	padding: 0;
-	margin: 0 0 30px; /* vertical space */
+	margin: 0 0 15px; /* vertical space: bottom 15 */
 	color: #111;
 }
 .article-style {
@@ -213,17 +213,13 @@ a.navbar-brand {
 	}
 }
 
-.fa-github, .fa-linkedin {
-  font-size: 0.9em;
-}
-
 .vertical-space {
   height: 0.5cm; /* Or use '10mm' for exactly 1 cm, or '0.5cm' for less than 1 cm */
 }
 
 @media screen and (max-width: 480px) {
 	.flexbox02 h2 {
-		margin: 0 0 20px;
+		margin: 0 0 10px;
 	}
 	.portrait-title h2 {
     margin: 25px 0 15px;
