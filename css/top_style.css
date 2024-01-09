@@ -212,6 +212,10 @@ a.navbar-brand {
     }
 }
 
+.fa-github, .fa-linkedin {
+    font-size: 0.7em; 
+}
+
 .vertical-space {
   height: 0.5cm; /* Or use '10mm' for exactly 1 cm, or '0.5cm' for less than 1 cm */
 }
