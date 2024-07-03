@@ -23,8 +23,8 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Takaaki Kishida" />
   <link rel="manifest" href="/index.webmanifest" />
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
+  <!--- <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" /> --->
+  <!--- <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" /> --->
   <link rel="canonical" href="https://TakaakiKishida.github.io/404.html" />
   <meta property="twitter:card" content="summary" />
   <meta property="og:site_name" content="Takaaki Kishida" />
@@ -35,48 +35,57 @@
   <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
 
 
-<script type="application/ld+json">
-{
+  <!---2023.2 追記--->
+  <link rel="stylesheet" href="https://takakishi.github.io/css/top_style.css" />
+  <link rel="stylesheet" href="https://takakishi.github.io/css/custom_research.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!---2023.2 追記--->
+
+
+
+  <script type="application/ld+json">
+  {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://TakaakiKishida.github.io/?q={search_term_string}",
+    "target": "https://takakishi.github.io/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
-  "url": "https://TakaakiKishida.github.io/"
-}
-</script>
+  "url": "https://takakishi.github.io/"
+  }
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+  $(function() {
+  $('.switch').click(function() {
+    $(this).toggleClass("open");
+    $(this).parent().find('.' + '.container').toggleClass("open");
+  });
+  });
+  </script>
 
 
 
+  <title>Takaaki Kishida / Research</title>
+
+  </head>
+
+
+  <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
 
 
 
-
-<title>Takaaki Kishida</title>
-
-</head>
-
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
+  <script src="/js/wowchemy-init.min.8be00435174e2a694d14c4b53a403b4d.js"></script>
 
 
 
+  <aside class="search-modal" id="search">
 
-
-
-
-
-
-<script src="/js/wowchemy-init.min.8be00435174e2a694d14c4b53a403b4d.js"></script>
-
-
-
-
-<aside class="search-modal" id="search">
-
-<div class="container">
+  <div class="container">
   <section class="search-header">
 
     <div class="row no-gutters justify-content-between mb-3">
@@ -102,24 +111,13 @@
     </div>
   </section>
   </div>
-</aside>
+  </aside>
 
 
 
+  <div class="page-header">
 
-
-
-
-
-
-
-
-
-<div class="page-header">
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     <div class="d-none d-lg-inline-flex">
@@ -141,9 +139,9 @@
     <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
       <ul class="navbar-nav d-md-inline-flex">
 
-        <li class="nav-item">
-          <a class="nav-link " href="/"><span>Home</span></a>
-        </li>
+        <!--- <li class="nav-item"> --->
+          <!--- <a class="nav-link " href="/"><span>Home</span></a> --->
+        <!--- </li> --->
 
         <li class="nav-item">
           <a class="nav-link " href="/files/cv_takaaki_kishida.pdf" target="_blank" rel="noopener"><span>CV</span></a>
@@ -153,72 +151,50 @@
           <a class="nav-link " href="/research" data-target="research"><span>Research</span></a>
         </li>
 
+        <!---
         <li class="nav-item">
           <a class="nav-link " href="/miscellaneous" data-target="miscellaneous"><span>Miscellaneous</span></a>
         </li>
+        --->
 
         <li class="nav-item">
           <a class="nav-link " href="/fieldworkgallery" data-target="fieldworkgallery"><span>Fieldwork Gallery</span></a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link " href="/japanese" data-target="japanese"><span>Japanese</span></a>
-        </li>
+        <!--- <li class="nav-item"> --->
+          <!--- <a class="nav-link " href="/japanese" data-target="japanese"><span>Japanese</span></a> --->
+        <!--- </li> --->
 
       </ul>
     </div>
 
+  </div>
+  </nav>
+  <!--- End of class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main" --->
 
   </div>
-</nav>
+  <!--- End of class="page-header" --->
 
 
 
-</div>
+  <div class="page-body">
 
+  <div class="research_page">
+    <div class="main_ttl"><h2>Curriculum Vitae</h2></div>
 
+    <div class="research_box">
+      <p class="box_ttl">This page is under construction. Please check back later.</p>
+    </div>
 
-
-
-
-
-
-
-
-<div class="page-body">
-
-
-
-<div class="universal-wrapper">
-  <h1><center>Page not found</center></h1>
-</div>
-
-
-
-<div align="start" class="article-container pt-1">
-
-  <div class="article-container">
-    <h6>
-      <p>My favorite <a href="https://ja.wikipedia.org/wiki/NOT_FOUND_(Mr.Children%E3%81%AE%E6%9B%B2)" target="_blank" rel="noopener">NOT FOUND</a> is...</p>
-    </h6>
   </div>
 
-</div> <!-- End of External Links -->
-
-
-</div>
-
+  </div>
+  <!--- End of class="page-body" --->
 
 
 
-
-
-
-
-
-
-
-<div class="page-footer">
+  <!---
+  <div class="page-footer">
   <div class="container">
 
     <footer class="site-footer">
@@ -232,10 +208,12 @@
 
     </footer>
   </div>
-</div>
+  </div>
+  --->
 
 
-<div id="modal" class="modal fade" role="dialog">
+
+  <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -258,18 +236,18 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
 
-<script id="search-hit-fuse-template" type="text/x-template">
+  <script id="search-hit-fuse-template" type="text/x-template">
   <div class="search-hit" id="summary-{{key}}">
     <div class="search-hit-content">
       <div class="search-hit-name">
@@ -279,12 +257,19 @@
       </div>
     </div>
   </div>
-</script>
+  </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-<script src="/js/_vendor/bootstrap.bundle.min.29d2abb07db775505d3a2efc824e7b29.js"></script>
-<script src="/en/js/wowchemy.min.982af1f55a074589bec34f6089331b4b.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+  <script src="/js/_vendor/bootstrap.bundle.min.29d2abb07db775505d3a2efc824e7b29.js"></script>
+  <script src="/en/js/wowchemy.min.982af1f55a074589bec34f6089331b4b.js"></script>
 
-</body>
-</html>
+
+  <!-- トグルをクリックしてもうまく開かない問題
+      See: https://qiita.com/pocket_ma_kun/items/a56513966a5d3516b0ed -->
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
