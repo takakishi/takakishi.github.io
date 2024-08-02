@@ -9,4 +9,4 @@ node_modules/
 .Rproj.user
 
 # Ignore Mac system files
-.DS_store
+.DS_Store
