@@ -148,6 +148,31 @@ a.navbar-brand {
   text-decoration: none;
 }
 
+a {
+    color: #003E85;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 @media screen and (max-width: 1200px) {
 	.container {
 		max-width: 65%;      /* Adjust this percentage as needed */
@@ -224,28 +249,4 @@ a.navbar-brand {
 	.portrait-title h2 {
     margin: 25px 0 15px;
 	}
-}
-
-a {
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-}
-
-a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
