@@ -147,6 +147,16 @@ a.navbar-brand {
 .article-style p a {
   text-decoration: none;
 }
+
+a {
+    color: #003E85;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1200px) {
 	.container {
 		max-width: 65%;      /* Adjust this percentage as needed */
